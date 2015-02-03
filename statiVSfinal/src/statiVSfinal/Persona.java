@@ -13,9 +13,7 @@ public class Persona {
 	public Persona(){
 		numPersonas++;
 	}
-	//para acceder a un atributo static, no necesitamos crear una 
-	//instancia de la clase, ya que podemos acceder a ellos mediante
-	//el nombre de la clase
+
 	public static  void comentario(){
 		System.out.println("para acceder a un atributo static, no necesitamos crear una"
 				+ " instancia de la clase, " +"\n"+ "ya que podemos acceder a ellos mediante"
