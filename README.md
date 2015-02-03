@@ -5,3 +5,20 @@ Static------
 
 Final------ 
       Cuando necesitamos que el valor de un atributo no cambie durante el transcurso de nuestro programa, debemos utilizar el modificador final en su definición.
+      
+      
+      al compilar 
+      
+metodo statico<><><><><><>
+para acceder a un atributo static, no necesitamos crear una instancia de la clase, 
+ya que podemos acceder a ellos mediante el nombre de la clase
+
+metodo final<><><><><><>
+Cuando necesitamos que el valor de un atributo no cambie durante el transcurso de nuestro programa, 
+debemos utilizar el modificador final en su definición
+
+metodo final y statico<><><><><><>
+Definiendo un atributo como public, static y final, obtenemos una constante que podrá ser accedida desde cualquier clase (public), 
+el acceso se podrá realizar sin tener que instanciar la clase mediante el nombre de la clase (static) 
+y su valor no podrá ser modificado en ningún momento (final).
+
