@@ -5,7 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 			//estas instancias no estan siendo utilizadas
-		    Persona p1 = new Persona();
+		    Persona p1 = new Persona();//si esta siendo utilizada
 	        Persona p2 = new Persona();
 	        Persona p3 = new Persona();
 	        
